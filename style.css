@@ -1,0 +1,82 @@
+header {
+    height: 100px;
+    margin: 0;
+}
+
+h1 {
+    background-image: url("bg1.jpg");
+    color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    box-shadow: 10px 10px 35px grey;
+    margin: 0;
+}
+
+h2 {
+    background-image: url("guns.jpg");
+    background-position: center;
+    opacity: 0.75;
+    color: white;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    box-shadow: 10px 10px 35px grey;
+    margin:0;
+}
+
+h3 {
+    background-image: url("shop.png");
+    width: 180px;
+    height: 180px;
+    border-radius: 120px;
+    box-shadow: 10px 10px 35px grey;
+    transform: scale(0.4);
+    display: inline-flex;
+}
+
+#panier {
+    display: inline-block;
+    margin:0;
+}
+
+#background  {
+    background-image: url("bg3.png");
+    opacity: 0.5;
+    top: 0;
+    left: 150px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-color: bisque;
+    background-repeat: no-repeat;
+    transform: scale(1.4);
+    display: flex;
+}
+
+#zone {
+    display: inline-flex;
+}
+
+#zone > div > button {
+    margin-right: 50px;
+}
+
+.guns {
+    width: 240px;
+    height: 240px;
+}
+
+#zone > div {
+    margin-left: 25px;
+    box-shadow: 10px 10px 35px grey;
+}
+
+#zone > div > header {
+    height: 20px;
+}
+
+#zone > div:hover {
+    transform: scale(1.15);
+}
